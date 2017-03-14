@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+        <link rel="stylesheet" href="./css/animate.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <script type="text/javascript" src="./js/script.js"></script>
+        <title>Starting Line!</title>
+    </head>
+    <body onkeyup="keyWasPressed(event)">
+
+        <div id="container-main" class="well">
+
+            <header>
+                <h1>Starting Line</h1>
+                <details>
+                  <summary>On Your Marks!</summary>
+                  <ul>
+                      <li>After 'Go', be the first to press your key.</li>
+                      <li>Each round's winner earns one point.</li>
+                      <li>A false start makes you lose a point</li>
+                  </ul>
+                </details>
+            </header>
+
+            <div id="getready">
+                <div id="ready-button"
+                    class="btn btn-large"
+                    onclick="doReadyGo()"
+                >
+                    Ready
+                </div>
+            </div>
+
+
+
+            <div id="showzone" class="well">
+                Hone Your Marks!
+            </div>
+
+            <div id="scores">
+                <div id="score1">
+                    Score 1:
+                    <span id="score1-display" class="animated rubberBand">0</span>
+                </div>
+                <div id="score2">
+                    Score 2:
+                    <span id="score2-display" class="animated rubberBand">0</span>
+                </div>
+            </div>
+
+            <div id="buttons">
+                <button type="button" name="button1"
+                    id="button1" class="btn btn-large">Player 1 - Z key</button>
+                <button type="button" name="button2"
+                    id="button2" class="btn btn-large">Player 2 - M key</button>
+            </div>
+
+            <div id="keycode-message" >
+                Keycode:
+                <span id="keycode-display" class="animated bounceInRight"></span>
+            </div>
+
+            <footer><h5>maimous Productions 2017</h5></footer>
+
+        </div> <!-- container-main end -->
+
+    </body>
+</html>

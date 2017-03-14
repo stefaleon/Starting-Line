@@ -1,0 +1,131 @@
+/*@import url(http://fonts.googleapis.com/css?family=Rock+Salt);*/
+@font-face {
+    font-family: 'Rock Salt';
+    src: url('./fonts/RockSalt.woff2');
+}
+
+#container-main {
+    background-color: #87cefa;
+    font-family: 'Rock Salt', Verdana, Helvetica, sans-serif;
+    font-size: 1.9rem;
+    margin: auto;
+    margin-top: 30px;
+    max-width: 1200px;
+    text-align: center;
+}
+
+header, footer {
+    background-color: white;
+    margin-bottom: 2rem;
+    padding: 5px 10px;
+}
+
+details {
+    line-height: 35px;
+    margin: auto;
+    max-width: 550px;
+}
+
+summary {
+  outline:none;
+}
+
+#keycode-message {
+    padding: 2.5rem;
+}
+
+#keycode-display, #score1-display, #score2-display {
+    background-color: white;
+    box-shadow: 1px 1px 2px black, 0 0 25px lightgrey, 0 0 5px black;
+    display: inline-block;
+    min-height: 4rem;
+    min-width: 5rem;
+    padding: 5px 10px;
+    vertical-align: middle;
+}
+
+#getready {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+}
+
+#ready-button {
+    background-color: orange;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px black, 0 0 25px lightgrey, 0 0 5px black;
+    display: inline-block;
+    height: 130px;
+    width: 130px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ready-button:active {
+  background-color: #red;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+#showzone {
+    background-color: black;
+    border-radius: 1rem;
+    color: white;
+    font-size: 4.2rem;
+    margin: 2rem 6rem 2rem 6rem;
+    max-width: 200rem;
+    min-height: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#scores, #buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+.btn, .btn:hover, .btn:focus {
+    box-shadow: 1px 1px 2px black, 0 0 25px lightgrey, 0 0 5px black;
+    color: white;
+    font-size: 2.2rem;
+    padding: 30px;
+}
+
+#button1 {
+    background-color: lightgreen;
+    text-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px darkred;
+}
+
+#button1:focus {
+    background-color: red;
+}
+
+#button1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#button2 {
+    background-color: pink;
+    text-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px darkgreen;
+}
+
+
+#button2:focus {
+    background-color: red;
+}
+
+#button2:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
